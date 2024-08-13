@@ -1,0 +1,84 @@
+
+:root{
+    --color-background: #F7F3EB;
+    --primary-color: #ed2227;
+    --secondary-color: #221e1f;
+}
+
+body{
+    background: var(--color-background);
+}
+.coming-soon {
+    background: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-overlay {
+    background-color: rgba(22, 28, 45, 0.25) !important;
+}
+.logo{
+    margin-top: 2.5%;
+    max-height: 50px;
+}
+.logo,
+.img-responsive{
+    height: auto;
+    max-width: 100%;
+}
+.title-heading h1{
+    font-size: 62px !important;
+    color: var(--primary-color);
+    line-height: 75px;
+}
+.title-heading h1 span{
+    font-size: 38px;
+    line-height: 40px;
+}
+.title-heading p{
+    font-size: 18px !important;
+    color: var(--secondary-color);
+}
+.para-desc {
+    max-width: 800px;
+}
+#countdown .count-down .count-number {
+    background: #f7f7f7;
+    font-size: 42px;
+    font-weight: 700;
+}
+#countdown .count-down {
+    color: var(--secondary-color);
+}
+.footer {
+    background-color: var(--color-background);
+    border-top: 1px solid var(--secondary-color);
+}
+.footer .text-reset{
+    padding-top: 1%;
+    font-size: 18px;
+    color: var(--secondary-color) !important;
+}
+.footer a:hover{
+    color: var(--primary-color) !important;
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+
+}
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 991px) {
+    .flag{
+        margin-bottom: -5%;
+        margin-left: 10%;
+    }
+}
+/* Mobile Styles */
+@media (max-width: 767px) {
+    .flag{
+        margin-bottom: -10%;
+        margin-left: 10%;
+    }
+}
