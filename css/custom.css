@@ -10,14 +10,14 @@ body{
 }
 .coming-soon {
     overflow-x: hidden;
-    background: url(../images/bg.png);
+    background: url(../images/bg-1.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
 }
 
 .bg-overlay {
-    background-color: rgba(22, 28, 45, 0.25) !important;
+    background-color: transparent !important;
 }
 .logo{
     margin-top: 2.5%;
@@ -29,13 +29,15 @@ body{
     max-width: 100%;
 }
 .title-heading h1{
-    font-size: 62px !important;
+    font-size: 70px !important;
     color: var(--primary-color);
-    line-height: 75px;
+    line-height: 70px;
+    font-weight: 900 !important;
 }
 .title-heading h1 span{
-    font-size: 38px;
-    line-height: 40px;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 600 !important;
 }
 .title-heading p{
     font-size: 18px !important;
@@ -46,16 +48,17 @@ body{
     padding: 1% 2.5%;
 }
 #countdown .count-down .count-number {
-    background: #f7f7f7;
+    background: #f7f3eb;
     font-size: 42px;
     font-weight: 700;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 #countdown .count-down {
     margin: 1% 2.5%;
     color: var(--secondary-color);
 }
 .footer .p{
-    padding: 0.5%;
+    padding: 0.5% 0.25%;
     font-size: 14px;
     color: #fff !important;
 }
@@ -81,6 +84,17 @@ body{
         margin-left: 10%;
     }
     .footer .p{
-        padding: 1%;
+        font-size: 12px;
+        padding: 1% 0.5%;
+    }
+    .title-heading h1{
+        font-size: 42px !important;
+        line-height: 42px;
+        font-weight: 900 !important;
+    }
+    .title-heading h1 span{
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 600 !important;
     }
 }
