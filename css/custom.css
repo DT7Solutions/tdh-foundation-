@@ -80,4 +80,7 @@ body{
         margin-bottom: -10%;
         margin-left: 10%;
     }
+    .footer .p{
+        padding: 1%;
+    }
 }
