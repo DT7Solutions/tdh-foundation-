@@ -9,6 +9,7 @@ body{
     background: var(--color-background);
 }
 .coming-soon {
+    overflow-x: hidden;
     background: url(../images/bg.png);
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -42,6 +43,7 @@ body{
 }
 .para-desc {
     max-width: 800px;
+    padding: 1% 2.5%;
 }
 #countdown .count-down .count-number {
     background: #f7f7f7;
@@ -49,10 +51,12 @@ body{
     font-weight: 700;
 }
 #countdown .count-down {
+    margin: 1% 2.5%;
     color: var(--secondary-color);
 }
-.footer .text-reset{
-    font-size: 18px;
+.footer .p{
+    padding: 0.5%;
+    font-size: 14px;
     color: #fff !important;
 }
 .footer a:hover{
