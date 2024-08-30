@@ -3236,7 +3236,7 @@ ul {
 }
 
 .feature-one__single:hover .feature-one__arrow {
-  background-color: #36a1b0;
+  background-color: #2fb44b;
   color: var(--wishon-white);
 }
 
@@ -3567,7 +3567,7 @@ ul {
   justify-content: center;
   width: 153px;
   height: 153px;
-  background-color: #36a1b0;
+  background-color: #2fb44b;
   border-radius: 50%;
   margin: 0 auto;
   overflow: hidden;
@@ -4286,7 +4286,7 @@ ul {
   width: 0;
   height: 6px;
   border-radius: 3px;
-  background: #36a1b0;
+  background: #2fb44b;
   transition: all 2000ms ease 300ms;
 }
 
@@ -5518,7 +5518,7 @@ ul {
 .feature-two__single {
   position: relative;
   display: block;
-  background-color: #36a1b0;
+  background-color: #2fb44b;
   padding: 46px 60px 50px;
   overflow: hidden;
   z-index: 1;
@@ -6734,7 +6734,7 @@ ul {
   width: 100%;
   max-width: 102px;
   height: 102px;
-  background-color: #36a1b0;
+  background-color: #2fb44b;
   border-radius: 50%;
 }
 
@@ -8313,7 +8313,7 @@ ul {
   width: 0;
   height: 6px;
   border-radius: 3px;
-  background: #36a1b0;
+  background: #2fb44b;
   transition: all 2000ms ease 300ms;
 }
 
@@ -8898,7 +8898,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 64px;
-  color: #36a1b0;
+  color: #2fb44b;
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
   -webkit-transition-delay: 0.1s;
@@ -8923,7 +8923,7 @@ ul {
   right: -22px;
   width: 44px;
   height: 44px;
-  background-color: #36a1b0;
+  background-color: #2fb44b;
   opacity: .10;
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
@@ -10262,7 +10262,7 @@ ul {
   width: 0;
   height: 6px;
   border-radius: 3px;
-  background: #36a1b0;
+  background: #2fb44b;
   transition: all 2000ms ease 300ms;
 }
 
