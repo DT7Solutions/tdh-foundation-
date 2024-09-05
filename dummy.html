@@ -49,6 +49,202 @@
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/wishon.css" />
     <link rel="stylesheet" href="assets/css/wishon-responsive.css" />
+
+    <style>
+        
+/* ============================================================== 
+    # Topbar Styles
+=================================================================== */
+.top-bar-area .flex-item {
+	display: flex;
+	align-items: center;
+}
+
+.top-bar-area.fixed {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+
+.top-bar-area ul li {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.top-bar-area p {
+	margin: 0;
+	margin-right: 30px;
+	border-right: 1px solid rgba(255, 255, 255, 0.4);
+	padding-right: 30px;
+}
+
+.top-bar-area .text-end ul li {
+	margin-right: 13px;
+	margin-left: 13px;
+}
+
+.top-bar-area .social {
+	display: inline-block;
+	padding: 15px 30px;
+	background: var(--color-secondary);
+}
+
+.top-bar-area {
+	overflow: hidden;
+}
+
+.top-bar-area .flex-item i {
+	margin-right: 5px;
+	font-weight: 100;
+	position: relative;
+}
+
+.top-bar-area .container {
+	position: relative;
+	z-index: 1;
+}
+
+.top-bar-area .container::after {
+	position: absolute;
+	right: 15px;
+	top: 0;
+	content: "";
+	height: 100%;
+	width: 400%;
+	background: var(--dark);
+	z-index: -1;
+}
+
+.top-style-one .logo img {
+	height: 60px;
+}
+
+.top-style-one .social li {
+	display: inline-block;
+}
+
+.top-style-one {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.top-style-one.transparent {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.top-style-one .logo {
+	text-align: center;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	padding: 15px 0;
+}
+
+.top-style-one.transparent .logo {
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.top-style-one .social li a {
+	display: inline-block;
+	height: 43px;
+	width: 43px;
+	text-align: center;
+	line-height: 45px;
+	background: var(--bg-gradient);
+	color: var(--white);
+	border-radius: 50%;
+	font-size: 15px;
+}
+
+.top-style-one .text-end.social li {
+	margin-left: 3px;
+}
+
+.top-style-one .info i {
+	font-weight: 100;
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+	color: var(--color-primary);
+}
+
+.top-style-one .info li {
+	font-weight: 500;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+}
+
+.top-style-one .info li i {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: var(--color-primary);
+	border-radius: 50%;
+	color: var(--white);
+	margin-right: 20px;
+}
+
+.top-style-one .info li span {
+	display: block;
+	font-weight: 500;
+	line-height: 1.1;
+	font-size: 15px;
+}
+
+.top-style-one .info li a {
+	font-size: 18px;
+	text-transform: lowercase;
+}
+
+.top-style-one .info li .content {
+	margin-bottom: -8px;
+}
+
+.top-style-one .text-end li {
+	justify-content: right;
+	text-align: left;
+}
+
+.top-style-one.bg-dark .logo {
+	border-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (min-width: 1024px) {
+	.top-style-one.transparent {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		z-index: 9;
+	}
+}
+/* Navbar */
+
+nav.navbar.validnavs.inc-shape::after {
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	content: "";
+	height: 100px;
+	width: 100%;
+	background: url(../img/shape/brush-down.png);
+	z-index: -1;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+
+    </style>
 </head>
 
 <body>
@@ -59,88 +255,167 @@
         <div class="preloader__image"></div>
     </div>
     <!-- /.preloader -->
-    <div class="page-wrapper">
-        <header class="main-header-four">
-            <div class="main-header-four__top">
-                <div class="main-header-four__top-wrapper">
-                    <div class="container">
-                        <div class="main-header-four__top-inner">
-                            <div class="main-header-four__top-left">
-                                <ul class="list-unstyled main-header-four__contact-list">
-                                    <li>
-                                        <div class="icon">
-                                            <i class="fas fa-envelope-open"></i>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="needhelp@company.com">info@tenalidoublehorse.com</a></p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <i class="fas fa-mobile"></i>
-                                        </div>
-                                        <div class="text">
-                                            <p><a href="tel:13077760608">+ 1 (307) 776-0608</a></p>
+    <div class="top-bar-area top-bar-style-one bg-dark text-light">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-xl-6 col-lg-8 offset-xl-3 pl-30 pl-md-15 pl-xs-15">
+                    <ul class="item-flex">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i> 70240 Avenue of the Moon, California
+                        </li>
+                        <li>
+                            <a href="tel:+4733378901"><i class="fas fa-phone-alt"></i> +4733378901</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 text-end">
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Top -->
+
+    <!-- Header 
+    ============================================= -->
+    <header>
+        <!-- Start Navigation -->
+        <nav class="navbar mobile-sidenav navbar-style-one navbar-sticky navbar-default validnavs white navbar-fixed no-background">
+
+            <div class="container">
+                <div class="row align-center">
+
+                    <!-- Start Header Navigation -->
+                    <div class="col-xl-2 col-lg-3 col-md-2 col-sm-1 col-1">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/img/logo-green.png" class="logo" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Header Navigation -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="col-xl-6 offset-xl-1 col-lg-6 col-md-4 col-sm-4 col-4">
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+
+                            <img src="assets/img/logo.png" alt="Logo">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                <i class="fa fa-times"></i>
+                            </button>
+                            
+                            <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Home</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="index.html">Agriculture</a></li>
+                                        <li><a href="index-3.html">Farm Shop</a></li>
+                                        <li><a href="index-2.html">Organic Farm</a></li>
+                                        <li><a href="agriculture-shop.html">Agriculture Shop</a></li>
+                                        <li><a href="gardening.html">Home Gardening</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="team-details.html">Team Details</a></li>
+                                        <li><a href="pricing.html">Pricing</a></li>
+                                        <li class="dropdown">
+                                            <a href="project.html" class="dropdown-toggle" data-toggle="dropdown" >Projects</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="project.html">Project style one</a></li>
+                                                <li><a href="project-details.html">Project Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="faq.html">FAQ</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+                                        <li><a href="404.html">Error Page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="services.html">Services Version One</a></li>
+                                        <li><a href="services-2.html">Services Version Two</a></li>
+                                        <li><a href="services-details.html">Services Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="blog-standard.html">Blog Standard</a></li>
+                                        <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                                        <li><a href="blog-2-colum.html">Blog Grid Two Colum</a></li>
+                                        <li><a href="blog-3-colum.html">Blog Grid Three Colum</a></li>
+                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                        <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact-us.html">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-7 col-7">
+                        <div class="attr-right">
+                            <!-- Start Atribute Navigation -->
+                            <div class="attr-nav">
+                                <ul>
+                                    <li class="contact">
+                                        <div class="call">
+                                            <div class="icon">
+                                                <i class="fas fa-comments-alt-dollar"></i>
+                                            </div>
+                                            <div class="info">
+                                                <p>Have any Questions?</p>
+                                                <h5><a href="mailto:info@crysta.com">info@agrul.com</a></h5>
+                                            </div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="main-header-four__top-right">
-                                <!-- <ul class="list-unstyled main-header-four__login-reg">
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Register</a></li>
-                                </ul> -->
-                                <div class="main-header-four__social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook"></i></a>
-                                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
+                            <!-- End Atribute Navigation -->
+        
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <nav class="main-menu main-menu-four">
-                <div class="main-menu-four__wrapper">
-                    <div class="container">
-                        <div class="main-menu-four__wrapper-inner">
-                            <div class="main-menu-four__left">
-                                <div class="main-menu-four__logo">
-                                    <a href="index.html"><img src="assets/images/logo.png" alt="" height="80"></a>
-                                </div>
-                            </div>
-                            <div class="main-menu-four__right">
-                                <div class="main-menu-four__main-menu-box">
-                                    <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                                    <ul class="main-menu__list">
-                                        <li>
-                                            <a href="contact.html">HOME</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">ABOUTUS</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">NEWS & EVENTS</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="main-menu-four__search-btn-box">
-                                    <div class="main-menu-four__search-box">
-                                        <!-- <a href="#"
-                                            class="main-menu-four__search search-toggler icon-magnifying-glass"></a> -->
-                                    </div>
-                                    <div class="main-menu-four__btn-box">
-                                        <a href="cause-details.html" class="thm-btn main-menu-four__btn">Donate Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
+                </div>         
+                <!-- Main Nav -->
+
+                <!-- Overlay screen for menu -->
+                <div class="overlay-screen"></div>
+                <!-- End Overlay screen for menu -->
+            </div>   
+        </nav>
+        <!-- End Navigation -->
+    </header>
+    <!-- End Header -->

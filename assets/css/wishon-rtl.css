@@ -820,7 +820,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--wishon-base);
-  padding: 33px 60px 14px;
+  /* padding: 33px 60px 14px; */
   padding-right: 0;
   z-index: 1;
 }
@@ -868,9 +868,8 @@ ul {
   height: 50px;
   width: 50px;
   background-color: var(--wishon-extra);
-  border-radius: 50%;
-  font-size: 17px;
-  color: var(--wishon-base);
+  border-radius: 50%  padding: 33px 60px 14px;
+--wishon-base);
 }
 
 .main-menu__join-us-content {
