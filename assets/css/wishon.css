@@ -6488,6 +6488,7 @@ ul {
   display: block;
   margin-right: 70px;
   margin-left: -362px;
+  margin-top: 55px;
 }
 
 .faq-one__img-box {
@@ -6510,6 +6511,7 @@ ul {
   width: 30px;
   background-color: var(--wishon-primary);
   border-bottom-right-radius: var(--wishon-bdr-radius);
+  border-top-right-radius: var(--wishon-bdr-radius);
   z-index: -1;
 }
 
@@ -11370,8 +11372,8 @@ ul {
   justify-content: space-between;
   background-color: var(--wishon-primary);
   padding: 60px 60px 60px;
-  border-bottom-left-radius: var(--wishon-bdr-radius);
-  border-bottom-right-radius: var(--wishon-bdr-radius);
+  border-top-left-radius: var(--wishon-bdr-radius);
+  border-top-right-radius: var(--wishon-bdr-radius);
 }
 
 .google-map-two__bottom-list li {
