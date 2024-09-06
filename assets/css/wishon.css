@@ -11520,3 +11520,31 @@ ul {
 .thm-btn:hover{
  background-color: #2fb44b;
 }  
+
+.limited-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: max-height 0.3s ease;
+  /* max-height: 4.5em; */
+}
+
+
+.full-text {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+  max-height: none;
+}
+.thm-btn-sm {
+  color: var(--wishon-white);
+  text-transform: uppercase;
+  letter-spacing: var(--wishon-letter-spacing-two);
+  background-color: #f3b42d;
+  border-radius: var(--wishon-bdr-radius);
+  border: none;
+  padding: 4px 14px;
+  margin-top: 10px;
+}

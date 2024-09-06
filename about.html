@@ -193,7 +193,7 @@
                     <div class="col-xl-6">
                         <div class="about-three__right">
                             <div class="about-three__img">
-                                <img src="assets/images/resources/about-three-img-1.jpg" alt="">
+                                <img src="assets/images/about/ab-sec.webp" alt="" height="500">
                             </div>
                         </div>
                     </div>
@@ -224,19 +224,22 @@
         <!--Fundraising One End-->
         <section class="team-page">
             <div class="container">
-                <div class="row">
+                <div class="row vision-mission">
                     <!--Team One Single Start-->
                     <div class="col-xl-4 col-lg-6 wow fadeInUp animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                        <div class="team-one__single">
+                        <div class="team-one__single shadow-lg p-3 mb-5 bg-body rounded">
                             <div class="team-one__img-box">
                                 <div class="team-one__img">
-                                    <img src="assets/images/about/1-512x350.png" alt="">
+                                    <img src="assets/images/about/vission.png" alt="">
                                 </div>
                                 <h3 class="team-one__name"><a href="volunteers.html">Vision</a></h3>
-                                <p class="team-one__sub-title">To build a society where knowledge and a positive attitude are the driving forces
+                                <p class="team-one__sub-title limited-text text" id="text">To build a society where knowledge and a positive attitude are the driving forces
                                     behind progress in education, health, sports, women empowerment, and
                                     sustainability. We envision a world where every individual, regardless of
-                                    background, has the tools and opportunities.</p>
+                                    background, has the tools and opportunities to thrive, contribute to a sustainable
+                                    future, and lead a life of dignity and purpose.</p>
+                                
+                                    <button class="thm-btn-sm" id="readMoreBtn" onclick="toggleText()">Read More</button>
                             </div>
                             <div class="team-one__content">
                                
@@ -247,16 +250,21 @@
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
                     <div class="col-xl-4 col-lg-6 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                        <div class="team-one__single">
+                        <div class="team-one__single shadow-lg p-3 mb-5 bg-body rounded">
                             <div class="team-one__img-box">
                                 <div class="team-one__img">
-                                    <img src="assets/images/about/1-512x350.png" alt="">
+                                    <img src="assets/images/about/mission.png" alt="">
                                 </div>
-                                <h3 class="team-one__name"><a href="volunteers.html">Vision</a></h3>
-                                <p class="team-one__sub-title">To build a society where knowledge and a positive attitude are the driving forces
-                                    behind progress in education, health, sports, women empowerment, and
-                                    sustainability. We envision a world where every individual, regardless of
-                                    background, has the tools and opportunities.</p>
+                                <h3 class="team-one__name"><a href="volunteers.html">Mission</a></h3>
+                                <p class="team-one__sub-title limited-text" id="text-mission">Our mission is to harness the power of knowledge and a positive attitude to
+                                    support and uplift individuals across multiple dimensions—education, health,
+                                    sports, women empowerment, and sustainability. We aim to provide financial
+                                    assistance, resources, and guidance to underprivileged communities, ensuring
+                                    that they have the opportunity to grow, learn, and excel. Through our initiatives,
+                                    we strive to create a generation of knowledgeable, healthy, and empowered
+                                    individuals who are capable of making a meaningful impact on society and the
+                                    environment.</p>
+                                    <button class="thm-btn-sm" id="readMoreBtn" onclick="toggleText_mission()">Read More</button>
                             </div>
                             <div class="team-one__content">
                                
@@ -267,16 +275,21 @@
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
                     <div class="col-xl-4 col-lg-6 wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
-                        <div class="team-one__single">
+                        <div class="team-one__single shadow-lg p-3 mb-5 bg-body rounded">
                             <div class="team-one__img-box">
                                 <div class="team-one__img">
-                                    <img src="assets/images/about/1-512x350.png" alt="">
+                                    <img src="assets/images/about/values.png" alt="">
                                 </div>
-                                <h3 class="team-one__name"><a href="volunteers.html">Vision</a></h3>
-                                <p class="team-one__sub-title">To build a society where knowledge and a positive attitude are the driving forces
-                                    behind progress in education, health, sports, women empowerment, and
-                                    sustainability. We envision a world where every individual, regardless of
-                                    background, has the tools and opportunities.</p>
+                                <h3 class="team-one__name"><a href="volunteers.html">Values</a></h3>
+                                <p class="team-one__sub-title">
+                                    <ul class="limited-text" id="text-value" style="text-align: start;">
+                                        <li> 1. Empowerment: We believe in empowering individuals and communities to take control of their lives and create positive change.</li>
+                                        <li> 2. Knowledge: We value knowledge as the foundation for personal growth, development, and societal progress..</li>
+                                        <li> 3. Positivity: We embrace a positive attitude as a driving force for overcoming challenges and achieving success.</li>
+                                        <li> 4. Sustainability: We strive to promote environmentally sustainable practices and contribute to a healthier planet.</li>
+                                        <li> 5. Empowerment: We believe in empowering individuals and communities to take control of their lives and create positive change.</li>
+                                    </ul>
+                                    <button class="thm-btn-sm" id="readMoreBtn" onclick="toggleTextValue()">Read More</button>
                             </div>
                             <div class="team-one__content">
                         
@@ -345,7 +358,7 @@
                         <div class="faq-one__left">
                             <div class="faq-one__img-box">
                                 <div class="faq-one__img">
-                                    <img src="assets/images/resources/faq-one-img-1.jpg" alt="">
+                                    <img src="assets/images/about/have-any-question.webp" alt="">
                                 </div>
                             </div>
                         </div>
@@ -640,7 +653,6 @@
     <!-- /.search-popup -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
 
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>

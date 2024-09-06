@@ -1002,3 +1002,46 @@
   $('select:not(.ignore)').niceSelect();
 
 })(jQuery);
+
+
+function toggleText() {
+
+  var textElement = document.getElementById("text");
+  var button = document.getElementById("readMoreBtn");
+  
+  if (textElement.classList.contains("full-text")) {
+  textElement.classList.remove("full-text");
+  button.innerHTML = "Read More";
+  } else {
+  textElement.classList.add("full-text");
+  button.innerHTML = "Read Less";
+  }
+
+}
+function  toggleText_mission() {
+  var textElement_mission = document.getElementById("text-mission");
+  var button = document.getElementById("readMoreBtn");
+  
+ 
+  if (textElement_mission.classList.contains("full-text")) {
+    textElement_mission.classList.remove("full-text");
+    button.innerHTML = "Read More";
+    } else {
+      textElement_mission.classList.add("full-text");
+    button.innerHTML = "Read Less";
+    }
+}
+
+function toggleTextValue() {
+  var textElement_value = document.getElementById("text-value");
+  var button = document.getElementById("readMoreBtn");
+  
+ 
+  if (textElement_value .classList.contains("full-text")) {
+    textElement_value .classList.remove("full-text");
+    button.innerHTML = "Read More";
+    } else {
+      textElement_value .classList.add("full-text");
+    button.innerHTML = "Read Less";
+    }
+}
