@@ -1584,9 +1584,12 @@
     }
 
     .main-menu__join-us {
-        display: none;
+        display: block;
+       
     }
-
+.volinter h5 {
+    font-size: 15px;
+}
 
 
     .main-menu-two .main-menu__list>li+li,
@@ -1623,7 +1626,7 @@
     }
 
     .main-menu__join-us {
-        display: none;
+        display: block;
     }
 
     .main-menu__search-box {

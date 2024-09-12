@@ -957,16 +957,22 @@
     if ($(".stricked-menu").length) {
       var headerScrollPos = 130;
       var stricky = $(".stricked-menu");
+      var logo = $(".main-menu__logo a img");
       if ($(window).scrollTop() > headerScrollPos) {
         stricky.addClass("stricky-fixed");
+        
+        // logo.css({height:"130px"})
       } else if ($(this).scrollTop() <= headerScrollPos) {
+       
         stricky.removeClass("stricky-fixed");
+        // logo.css({height:"80px"})
       }
     }
     if ($(".scroll-to-top").length) {
       var strickyScrollPos = 100;
       if ($(window).scrollTop() > strickyScrollPos) {
         $(".scroll-to-top").fadeIn(500);
+        logo.css({padding:"20px 0px 0px 0px"})
       } else if ($(this).scrollTop() <= strickyScrollPos) {
         $(".scroll-to-top").fadeOut(500);
       }

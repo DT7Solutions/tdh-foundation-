@@ -247,7 +247,7 @@ ul {
   letter-spacing: var(--wishon-letter-spacing-two);
   background-color: #f3b42d;
   border-radius: var(--wishon-bdr-radius);
-  padding: 17px 50px 17px;
+  padding: 12px 50px 12px;
   padding-right: 47px;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
@@ -711,7 +711,8 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #232323;
+  /* background-color: #232323; */
+  background-color:#2FB44B;
   padding: 13.5px 40px 13.5px;
   margin-right: 30px;
 }
@@ -842,7 +843,7 @@ ul {
 }
 
 .main-menu__logo a img{
-  height: 100px;
+  height: 130px;
 } 
 
 
@@ -6628,7 +6629,9 @@ ul {
   width: 100%;
   background-color: var(--wishon-base);
   margin: 0 auto;
-  border-radius: var(--wishon-bdr-radius);
+  /* border-radius: var(--wishon-bdr-radius); */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   padding: 60px 0 60px;
   z-index: 1;
 }
@@ -11547,4 +11550,16 @@ ul {
   border: none;
   padding: 4px 14px;
   margin-top: 10px;
+}
+
+.popup-container {
+  position: relative;
+}
+.button-x{
+  position: absolute;
+  right: 0;
+  /* padding: 5px; */
+}
+.volinter h5{
+  cursor: pointer;
 }
