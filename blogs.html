@@ -503,6 +503,8 @@
     </div>
     <!-- /.mobile-nav__wrapper -->
 
+    <!-- model popup start -->
+    <!-- /.search-popup -->
     <div class="search-popup">
         <div class="search-popup__overlay search-toggler"></div>
         <!-- /.search-popup__overlay -->
@@ -517,7 +519,240 @@
         </div>
         <!-- /.search-popup__content -->
     </div>
-    <!-- /.search-popup -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="advisiorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content popup-container">
+                <div class="modal-header">
+                    <h5 class="modal-title">Apply Advisor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="advisorName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="advisorName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="advisorEmail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorPhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="advisorPhone" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="advisorAddress" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorDOB" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="advisorDOB" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorOccupation" class="form-label">Occupation/Field of Expertise</label>
+                            <input type="text" class="form-control" id="advisorOccupation" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorExperience" class="form-label">Years of Experience</label>
+                            <input type="number" class="form-control" id="advisorExperience" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorSkills" class="form-label">Relevant Skills</label>
+                            <textarea class="form-control" id="advisorSkills" rows="3" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorContribution" class="form-label">How do you wish to contribute?</label>
+                            <textarea class="form-control" id="advisorContribution" rows="3"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorResume" class="form-label">Resume/CV Upload</label>
+                            <input type="file" class="form-control" id="advisorResume" required>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="advisorTerms" required>
+                            <label class="form-check-label" for="advisorTerms">I agree to the Terms and
+                                Conditions</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- volinter model  -->
+    <div class="modal fade" id="volinterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content popup-container">
+                <div class="modal-header">
+                    <h5 class="modal-title">Become a Volunteer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="advisorName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="advisorName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="advisorEmail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorPhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="advisorPhone" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="advisorAddress" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorDOB" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="advisorDOB" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorOccupation" class="form-label">Occupation/Field of Expertise</label>
+                            <input type="text" class="form-control" id="advisorOccupation" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorExperience" class="form-label">Years of Experience</label>
+                            <input type="number" class="form-control" id="advisorExperience" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorSkills" class="form-label">Relevant Skills</label>
+                            <textarea class="form-control" id="advisorSkills" rows="3" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorContribution" class="form-label">How do you wish to contribute?</label>
+                            <textarea class="form-control" id="advisorContribution" rows="3"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="advisorResume" class="form-label">Resume/CV Upload</label>
+                            <input type="file" class="form-control" id="advisorResume" required>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="advisorTerms" required>
+                            <label class="form-check-label" for="advisorTerms">I agree to the Terms and
+                                Conditions</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--scholarship model  -->
+    <div class="modal fade" id="studentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content popup-container">
+                <div class="modal-header">
+                    <h5 class="modal-title">apply scholarship</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="studentName" class="form-label">Student Name</label>
+                            <input type="text" class="form-control" id="studentName" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="studentEmail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentPhone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="studentPhone" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="studentAddress" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentDOB" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="studentDOB" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentSchool" class="form-label">School/College Name</label>
+                            <input type="text" class="form-control" id="studentSchool" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentGrade" class="form-label">Grade or Year</label>
+                            <input type="text" class="form-control" id="studentGrade" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentNeed" class="form-label">Details of Financial Need</label>
+                            <textarea class="form-control" id="studentNeed" rows="3" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentAmount" class="form-label">Amount Required</label>
+                            <input type="number" class="form-control" id="studentAmount" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentDocuments" class="form-label">Supporting Documents</label>
+                            <input type="file" class="form-control" id="studentDocuments" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentGuardian" class="form-label">Parent/Guardian Name</label>
+                            <input type="text" class="form-control" id="studentGuardian">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="studentGuardianContact" class="form-label">Parent/Guardian Contact
+                                Information</label>
+                            <input type="tel" class="form-control" id="studentGuardianContact">
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="studentTerms" required>
+                            <label class="form-check-label" for="studentTerms">I agree to the Terms and
+                                Conditions</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- model popup end  -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
