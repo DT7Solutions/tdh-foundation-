@@ -1026,7 +1026,7 @@ function toggleText() {
 }
 function  toggleText_mission() {
   var textElement_mission = document.getElementById("text-mission");
-  var button = document.getElementById("readMoreBtn");
+  var button = document.getElementById("readMoreBtn2");
   
  
   if (textElement_mission.classList.contains("full-text")) {
@@ -1040,7 +1040,7 @@ function  toggleText_mission() {
 
 function toggleTextValue() {
   var textElement_value = document.getElementById("text-value");
-  var button = document.getElementById("readMoreBtn");
+  var button = document.getElementById("readMoreBtn3");
   
  
   if (textElement_value .classList.contains("full-text")) {
