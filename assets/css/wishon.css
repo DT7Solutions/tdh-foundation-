@@ -4762,6 +4762,7 @@ ul {
 }
 
 .testimonial-one__text {
+  text-align: justify;
   font-size: 17px;
   line-height: 30px;
   margin-top: 15px;
@@ -8281,6 +8282,7 @@ ul {
 .featured-campaigns__text {
   margin-top: 34px;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .featured-campaigns__progress-box {
@@ -11562,4 +11564,8 @@ ul {
 }
 .volinter h5{
   cursor: pointer;
+}
+
+.text-justify {
+  text-align: justify;
 }
