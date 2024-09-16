@@ -11300,7 +11300,7 @@ ul {
 .brand-four__inner {
   position: relative;
   display: block;
-  padding: 88px 0 88px;
+  padding: 5% 0;
   border-top: 1px solid var(--wishon-bdr-color);
 }
 
@@ -11319,12 +11319,13 @@ ul {
 .brand-four .swiper-slide img {
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.15;
+  opacity: 0.5;
   max-width: 100%;
+  border-radius: 8px;
 }
 
 .brand-four .swiper-slide img:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 /*--------------------------------------------------------------
