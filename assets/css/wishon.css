@@ -241,7 +241,7 @@ ul {
   appearance: none;
   outline: none !important;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--wishon-white);
   text-transform: uppercase;
   letter-spacing: var(--wishon-letter-spacing-two);
@@ -11568,4 +11568,11 @@ ul {
 
 .text-justify {
   text-align: justify;
+}
+.header-btn .thm-btn1 {
+  padding: 5px 15px 5px !important;
+  font-size: 12px !important ;
+  background-color: #f3b42d;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
