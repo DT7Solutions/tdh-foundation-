@@ -11579,7 +11579,10 @@ ul {
 }
 
 
-.core-points .feature-four__text{
-
-  
+.blog-one__title{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
