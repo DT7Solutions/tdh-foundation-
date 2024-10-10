@@ -862,7 +862,7 @@ ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px 0;
+  /* padding: 30px 0; */
 }
 
 .main-menu__join-us {
@@ -5184,6 +5184,10 @@ ul {
   z-index: 1;
 }
 
+.footer-logo img {
+  max-height: 200px;
+}
+
 .site-footer__shape-1 {
   position: absolute;
   bottom: -30px;
@@ -5213,13 +5217,13 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding-bottom: 40px;
+  padding-bottom: 1.5%;
 }
 
 .footer-widget__about {
   position: relative;
   display: block;
-  margin-right: 70px;
+  margin-right: 2.5%;
   margin-top: -1px;
 }
 
@@ -5345,7 +5349,7 @@ ul {
 .footer-widget__contact {
   position: relative;
   display: block;
-  margin-left: 100px;
+  margin-left: 5%;
 }
 
 .footer-widget__contact-list {
@@ -5406,7 +5410,7 @@ ul {
 .site-footer__bottom {
   position: relative;
   display: block;
-  margin-top: 93px;
+  margin-top: 5%;
 }
 
 .site-footer__bottom-inner {
