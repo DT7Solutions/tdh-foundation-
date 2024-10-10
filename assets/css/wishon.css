@@ -8420,7 +8420,7 @@ ul {
 }
 
 .featured-campaigns__btn::after {
-  background-color: var(--wishon-black);
+  background-color: #f3b42d;
 }
 
 .featured-campaigns__carousel.owl-carousel .owl-stage-outer {
@@ -10994,7 +10994,7 @@ ul {
 .about-three__left {
   position: relative;
   display: block;
-  margin-right: 70px;
+  margin-right: 2.5%;
 }
 
 .about-three__left .section-title {
