@@ -1461,8 +1461,14 @@
         display: none;
     }
 
+    .main-menu__right {
+        display: none;
+    }
 
-
+    .main-menu__left {
+        flex: 1;
+        justify-content: space-between;
+    }
 
     .main-menu-two .mobile-nav__toggler {
         color: var(--wishon-white);
@@ -1482,19 +1488,7 @@
         color: var(--wishon-black);
     }
 
-
-
-
-
-
-
-
-
 }
-
-
-
-
 
 @media (max-width: 767px) {
     .main-header__top {
@@ -1517,7 +1511,6 @@
         flex: 1;
         justify-content: space-between;
     }
-
 
 
     .main-menu-two .mobile-nav__toggler {
@@ -1620,12 +1613,12 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
     .main-menu__logo {
-        margin-right: 50px;
+        margin-right: 25px;
     }
 
     .main-menu .main-menu__list>li+li,
     .stricky-header .main-menu__list>li+li {
-        margin-left: 50px;
+        margin-left: 25px;
     }
 
     .main-menu__join-us {
