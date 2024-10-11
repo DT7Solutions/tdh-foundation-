@@ -867,7 +867,7 @@
     }
 
     .testimonial-three__content-img {
-        left: 25%;
+        left: 30%;
     }
 
     .testimonial-three__text {
@@ -1066,11 +1066,10 @@
 
     .blog-details__pagenation li+li {
         margin-left: 0;
-        margin-top: 30px;
     }
 
     .blog-details__pagenation li {
-        padding: 52px 20px 52px;
+        padding: 2.5% 1%;
     }
 
     .sidebar__post {

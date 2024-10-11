@@ -1287,7 +1287,7 @@ ul {
 }
 
 .mobile-nav__content {
-  width: 300px;
+  max-width: 350px;
   background-color: var(--wishon-black);
   z-index: 10;
   position: relative;
@@ -1473,6 +1473,8 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 
 .mobile-nav__social a {
@@ -1480,14 +1482,18 @@ ul {
   color: var(--wishon-white);
   -webkit-transition: 500ms;
   transition: 500ms;
-}
-
-.mobile-nav__social a+a {
-  margin-left: 30px;
+  width: 40px;
+  height: 40px;
+  background: var(--wishon-gray);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mobile-nav__social a:hover {
   color: var(--wishon-base);
+  background: var(--wishon-primary);
 }
 
 .mobile-nav__contact {
@@ -4959,10 +4965,9 @@ ul {
 .blog-one__date {
   position: absolute;
   bottom: 0;
-  right: 20px;
+  right: 10%;
   background-color: var(--wishon-base);
   border-radius: var(--wishon-bdr-radius);
-  border-bottom-right-radius: 0;
   padding: 16px 18px 18px;
   z-index: 3;
 }
@@ -5264,7 +5269,7 @@ ul {
 .footer-widget__title-box {
   position: relative;
   display: inline-block;
-  margin-bottom: 24px;
+  margin-bottom: 2.5%;
 }
 
 .footer-widget__title-box::before {
@@ -6326,7 +6331,7 @@ ul {
 .team-one__img {
   position: relative;
   display: block;
-  width: 319px;
+  max-width: 350px;
   margin: 0 auto;
 }
 
@@ -6559,7 +6564,7 @@ ul {
   position: relative;
   display: block;
   cursor: pointer;
-  padding: 17px 40px 18px;
+  padding: 2.5% 7.5% 2.5% 2.5%;
   transition: all 200ms linear;
   transition-delay: 0.1s;
   border-radius: 0;
@@ -6567,6 +6572,7 @@ ul {
 
 .faq-one-accrodion .accrodion-title h4 {
   margin: 0;
+  padding-right: 5%;
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
@@ -6596,7 +6602,7 @@ ul {
   color: var(--wishon-black);
   position: absolute;
   top: 50%;
-  right: -2px;
+  right: -2.5%;
   transform: translateY(-50%);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -7799,7 +7805,7 @@ ul {
 .testimonial-three__content-img {
   position: relative;
   display: block;
-  width: 237px;
+  max-width: 250px;
   border-radius: var(--wishon-bdr-radius);
 }
 
@@ -9328,6 +9334,7 @@ ul {
 
 .blog-details__bottom p {
   margin: 0;
+  text-align: center;
 }
 
 .blog-details__tags span {
@@ -9440,7 +9447,7 @@ ul {
   position: relative;
   display: block;
   overflow: hidden;
-  margin-bottom: 53px;
+  margin-bottom: 2.5%;
 }
 
 .blog-details__pagenation {
@@ -10956,7 +10963,7 @@ ul {
 .blog-page {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 7.5% 0% 5%;
 }
 
 /*--------------------------------------------------------------
@@ -10965,7 +10972,7 @@ ul {
 .event-page {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 7.5% 0% 5%;
 }
 
 .event-page .event-two__single {
@@ -11367,8 +11374,8 @@ ul {
   height: 440px;
   width: 100%;
   mix-blend-mode: luminosity;
-  border-top-left-radius: var(--wishon-bdr-radius);
-  border-top-right-radius: var(--wishon-bdr-radius);
+  border-bottom-left-radius: var(--wishon-bdr-radius);
+  border-bottom-right-radius: var(--wishon-bdr-radius);
 }
 
 .google-map-two__bottom {
@@ -11382,7 +11389,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   background-color: var(--wishon-primary);
-  padding: 60px 60px 60px;
+  padding: 5% 2.5%;
   border-top-left-radius: var(--wishon-bdr-radius);
   border-top-right-radius: var(--wishon-bdr-radius);
 }
@@ -11398,8 +11405,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
   background-color: var(--wishon-white);
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
@@ -11413,7 +11420,7 @@ ul {
 .google-map-two__bottom-list li .icon span {
   position: relative;
   display: inline-block;
-  font-size: 18px;
+  font-size: 26px;
   color: var(--wishon-black);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -11426,7 +11433,7 @@ ul {
 .google-map-two__bottom-list li .content {
   position: relative;
   display: block;
-  margin-left: 22px;
+  margin-left: 10px;
 }
 
 .google-map-two__bottom-list li .content p {
