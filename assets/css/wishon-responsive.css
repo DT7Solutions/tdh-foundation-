@@ -1499,6 +1499,10 @@
         padding: 0px 20px 0px;
     }
 
+    .main-menu__wrapper-inner {
+        margin-top: 2.5%;
+    }
+
     .main-menu__logo {
         margin-right: 0px;
     }

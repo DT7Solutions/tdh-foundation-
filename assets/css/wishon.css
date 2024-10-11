@@ -636,6 +636,7 @@ ul {
   position: relative;
   display: block;
   padding: 0px 60px 0px;
+  margin-left: 15%;
 }
 
 .main-header__top-inner {
@@ -660,6 +661,9 @@ ul {
   align-items: center;
 }
 
+.main-header__contact-list li:first-child { 
+  display: none;
+}
 .main-header__contact-list li {
   position: relative;
   display: flex;
@@ -802,7 +806,7 @@ ul {
   background-color: var(--wishon-white);
   /* background-color: rgb(214, 216, 214); */
   /* z-index: 1; */
-  height: 85px !important;
+  height: 75px !important;
 }
 
 .main-menu__left {
@@ -823,7 +827,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--wishon-base);
-  padding: 20px 60px 14px;
+  padding: 20px 30px 5px;
   padding-left: 0;
   z-index: 1;
  border-bottom-right-radius: 10px;
@@ -5190,7 +5194,7 @@ ul {
 }
 
 .footer-logo img {
-  max-height: 200px;
+  max-height: 150px;
 }
 
 .site-footer__shape-1 {
