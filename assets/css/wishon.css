@@ -843,9 +843,9 @@ ul {
 }
 
 .main-menu__logo a img{
-  height: 130px;
+  padding: 20px 0px 0px;
+  height: 150px;
 } 
-
 
 .main-menu__main-menu-box {
   position: relative;
