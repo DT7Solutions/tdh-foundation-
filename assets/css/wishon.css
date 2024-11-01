@@ -11382,7 +11382,7 @@ ul {
   border: none;
   height: 440px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   border-bottom-left-radius: var(--wishon-bdr-radius);
   border-bottom-right-radius: var(--wishon-bdr-radius);
 }
