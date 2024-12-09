@@ -7652,6 +7652,7 @@ ul {
 
 .gallery-two__img img {
   width: 100%;
+  scale: 1.25;
   border-radius: var(--wishon-bdr-radius);
   transition: all 500ms ease;
 }
